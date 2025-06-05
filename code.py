@@ -10,11 +10,11 @@ def speak(text):
 
 if __name__ == "__main__":
     print("Welcome to Fast RoboSpeaker (PowerShell-based)")
-
     while True:
         x = input("Enter what you want me to speak : ")
         if x.lower() == "q":
             speak("Bye Bye Friends")
             break
         speak(x)
-
+        
+ # type: ignore
